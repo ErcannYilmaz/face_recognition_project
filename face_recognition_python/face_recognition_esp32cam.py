@@ -166,7 +166,7 @@ if __name__ == "__main__":
     process_this_frame = 29
     print('Kamera kuruluyor!')
     url = "ip adresi"
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(url)
     while True:
         ret, frame = cap.read()
         if ret:
